@@ -9,6 +9,12 @@ console.log('totalAttempts',totalAttempts);
 <div className='py-8 w-full border-solid inline-block' >
 <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-4 rounded relative" role="alert">
 
+
+<span className="block my-3">
+            Wrong!! Attempts remaining : 
+           <strong className="text-3xl text-green-500"> {totalAttempts+1}</strong>.
+          </span>
+
 {totalAttempts === 1 ?
 
 <div id="alert-5" className="flex p-4 bg-gray-100 rounded-lg dark:bg-gray-700" role="alert">
@@ -31,10 +37,6 @@ More audio available now. Tap on record player!</div>
 
 
 
-<span className="block my-3">
-            Attempts remaining : 
-           <strong className="text-3xl text-green-500"> {totalAttempts+1}</strong>.
-          </span>
   </div>
 
  
