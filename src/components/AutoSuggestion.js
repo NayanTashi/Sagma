@@ -61,7 +61,7 @@ export default function AutoSuggestion({ audiolist }) {
     pauseButton = document.getElementById('pause');
     pauseButton.style.display = 'none';
     playButton.style.display = 'none';
-    localStorage.getItem("localTotalAttempts") ? setTotalAttempts(localStorage.getItem("localTotalAttempts")): setTotalAttempts(2);
+   
 
 
   }, []);
