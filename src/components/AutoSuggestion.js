@@ -145,9 +145,10 @@ export default function AutoSuggestion({ audiolist }) {
     setGameWon(false);
     setGameEnded(true);
     gamelost.current = true;
+localStorage.setItem("localDay", audiolist.day);
     //setting up the intial values incase of no previous data
     if (!localStorage.getItem("highestScore")) {
-      localStorage.setItem("localDay", audiolist.day);
+      
       localStorage.setItem("localScore", finalScore.current);
       localStorage.setItem("mins", finalMins.current);
       localStorage.setItem("secs", finalSecs.current);
