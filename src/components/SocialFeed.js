@@ -16,7 +16,7 @@ const SocialFeed = ( ) => {
 export const AppUri = "https://sagma.netlify.app/";
    export const composeTweetBody = () =>{
 
-      return (localStorage.getItem("localScore") > 1000 ? `SaGMa Day ${localStorage.getItem("localDay")} : ${localStorage.getItem("mins")}m,${localStorage.getItem("secs")}secs - ${localStorage.getItem("localScore")}  🏆🏆   \n ${AppUri} ` : `SaGMa Day ${localStorage.getItem("localDay")} : ${localStorage.getItem("mins")}m,${localStorage.getItem("secs")}secs - ${localStorage.getItem("localScore")}  🏆   \n ${AppUri} `);
+      return (localStorage.getItem("localScore") > 1000 ? `SaGMa ${localStorage.getItem("localDay")} : ${localStorage.getItem("localScore")}🏆🏆, ${localStorage.getItem("mins")}m,${localStorage.getItem("secs")}secs. \n ${AppUri} ` : `SaGMa ${localStorage.getItem("localDay")} : ${localStorage.getItem("localScore")}🏆, ${localStorage.getItem("mins")}m,${localStorage.getItem("secs")}secs. \n ${AppUri} `);
 
 }
 
