@@ -8,7 +8,7 @@ const Navbar = () => {
     }
     return(
         <div className='text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4' >
-            <h1 className='w-full text-3xl font-bold  text-pink-500' ><strong>SaGma</strong></h1>
+            <h1 className='w-full text-3xl font-bold  text-pink-500' ><strong>Suppu</strong></h1>
             <ul className='hidden md:flex'>
             <li className='p-4'> <img className="p-1 w-14 h-14 rounded-full" alt="" src={require('./../Images/profile.jpeg')}/> </li>
       
@@ -18,7 +18,7 @@ const Navbar = () => {
                 
             </div>
             <div className={!nav? 'z-10 fixed left-0 top-0 w-3/6 flex-wrap h-full border-r border-r-gray-900 bg-black rounded dark:bg-gray-800 ease-in-out duration-300' : 'fixed left-[-100%]'}>
-                <h1 className='w-full text-3xl font-mono font-bold text-pink-500 m-4'><strong>SaGma, also I love my wife </strong></h1>  
+                <h1 className='w-full text-3xl font-mono font-bold text-pink-500 m-4'><strong>Suppu </strong></h1>  
                 <ul className='pt-18 flex-wrap uppercase '>
 
                
