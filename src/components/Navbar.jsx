@@ -18,7 +18,7 @@ const Navbar = () => {
                 
             </div>
             <div className={!nav? 'z-10 fixed left-0 top-0 w-3/6 flex-wrap h-full border-r border-r-gray-900 bg-black rounded dark:bg-gray-800 ease-in-out duration-300' : 'fixed left-[-100%]'}>
-                <h1 className='w-full text-3xl font-mono font-bold text-pink-500 m-4'><strong>SaGma, also I love my wife</strong></h1>
+                <h1 className='w-full text-3xl font-mono font-bold text-pink-500 m-4'><strong>SaGma, </strong></h1> <div className='text-white'> also I love my wife <div className='text-white'> 
                 <ul className='pt-18 flex-wrap uppercase '>
 
                
