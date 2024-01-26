@@ -18,14 +18,14 @@ const Navbar = () => {
                 
             </div>
             <div className={!nav? 'z-10 fixed left-0 top-0 w-3/6 flex-wrap h-full border-r border-r-gray-900 bg-black rounded dark:bg-gray-800 ease-in-out duration-300' : 'fixed left-[-100%]'}>
-                <h1 className='w-full text-3xl font-mono font-bold text-pink-500 m-4'><strong>SaGma</strong></h1>
+                <h1 className='w-full text-3xl font-mono font-bold text-pink-500 m-4'><strong>SaGma, also I love my wife</strong></h1>
                 <ul className='pt-18 flex-wrap uppercase '>
 
                
          <li>
 
          </li>
-         <li>         <img className="p-1 w-10 h-10 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" alt="" src={require('./../Images/profile.jpeg')}/>
+{/*          <li>         <img className="p-1 w-10 h-10 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" alt="" src={require('./../Images/profile.jpeg')}/>
             <a href="https://twitter.com/CrowBastard_" target="_blank" rel="noopener noreferrer" className="flex items-center p-2 text-base font-normal text-white-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
             <svg
   className="w-6 h-6 text-blue-300 fill-current"
@@ -53,7 +53,7 @@ const Navbar = () => {
             
                 <span className="flex-1 ml-3 whitespace-nowrap">Letterboxd</span>
             </a>
-         </li>
+         </li> */}
          <li>
             <a href="https://github.com/NayanTashi/SaGMa/" target="_blank" rel="noopener noreferrer" className="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
               <svg aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path></svg>
